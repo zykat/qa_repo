@@ -1,8 +1,31 @@
-321
+** git commands **
+token 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
+git config --global --list - to display .gitconfig file
+git config --global http.proxy <ip:port> - to add route by proxy
+git config --global http.sslverify=false - to unsert ssl-handshake
+---
+git add - to add new changes to local file
+git status - to show local repo status
+git commit -m "<descr>" - to commit new changes before push to remote repo
+git push - to send changes to remote repo
+git fetch - to get know about editing from remote repo
+git pull - to get update from remote repo
+---
+git log - to display commits of file
+git log --author <name> - to display commits made by author
+---
+git show - to display last commit
+git show <commit id> - to display certain commit
+---
+git blame <file> - to display changes made with file, when and who made (authors)
+git balame <file> | grep <change> - to filter certain change
+git balame <file> | grep <author> - to filter changes by author
+---
+git diff - to display file change before commit
 
-654
-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
+....
 
+....
+qaAutomationSlack
 https://app.slack.com/client/T01BJ59JRCY/C01CCA06X46
 ....
-Add new line

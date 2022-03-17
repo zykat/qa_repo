@@ -28,4 +28,8 @@ git diff - to display file change before commit
 ....
 qaAutomationSlack
 https://app.slack.com/client/T01BJ59JRCY/C01CCA06X46
+
+https://w3schools.com
+https://www.codewars.com/
+https://sololearn.com
 ....

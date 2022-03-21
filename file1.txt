@@ -29,7 +29,11 @@ git balame <file> | grep <author> - to filter changes by author
 git diff - to display file change before commit
 ---
 git checkout - to reset changes in file
-
+git checkout . - to reset changes in all files
+---
+git stash <file> - to hide modified line
+git stash pop <file> - to show modified line after stash
+git stash clear - to delete modified line 
 ....
 
 ....

@@ -6,7 +6,11 @@ git config --global http.sslverify=false - to unsert ssl-handshake
 ---
 git add - to add new changes to local file
 git status - to show local repo status
+---
 git commit -m "<descr>" - to commit new changes before push to remote repo
+
+
+
 git push - to send changes to remote repo
 git fetch - to get know about editing from remote repo
 git pull - to get update from remote repo

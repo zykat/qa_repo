@@ -27,6 +27,8 @@ git balame <file> | grep <change> - to filter certain change
 git balame <file> | grep <author> - to filter changes by author
 ---
 git diff - to display file change before commit
+---
+git checkout - to reset changes in file
 
 ....
 

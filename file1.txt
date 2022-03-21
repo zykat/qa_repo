@@ -8,8 +8,9 @@ git add - to add new changes to local file
 git status - to show local repo status
 ---
 git commit -m "<descr>" - to commit new changes before push to remote repo
-
-
+git commit -a - to commit all changes
+---
+git reset HEAD~1 - to reset commit (untrack) 1 step back
 
 git push - to send changes to remote repo
 git fetch - to get know about editing from remote repo

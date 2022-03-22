@@ -34,6 +34,10 @@ git checkout . - to reset changes in all files
 git stash <file> - to hide modified line
 git stash pop <file> - to show modified line after stash
 git stash clear - to delete modified line 
+---
+git branch <name> - to create new branch in repo
+git branch - to display existing branches
+git branch <name> - to switch to another branch 
 ....
 
 ....

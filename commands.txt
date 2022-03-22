@@ -1,6 +1,9 @@
 ** GIT COMMANDS **
 token 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
 ---
+copy NUL .gitconfig - to create git config file 
+git clone <repo link> - to clone remote repo to local
+---
 git config --global --list - to display .gitconfig file
 git config --global http.proxy <ip:port> - to add route by proxy
 git config --global http.sslverify=false - to unsert ssl-handshake

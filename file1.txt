@@ -1,5 +1,6 @@
-** git commands **
+** GIT COMMANDS **
 token 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
+---
 git config --global --list - to display .gitconfig file
 git config --global http.proxy <ip:port> - to add route by proxy
 git config --global http.sslverify=false - to unsert ssl-handshake
@@ -34,15 +35,15 @@ git checkout . - to reset changes in all files
 git stash <file> - to hide modified line
 git stash pop <file> - to show modified line after stash
 git stash clear - to delete modified line 
----
+
+--- BRANCHES ---
 git branch <name> - to create new branch in repo
 git branch - to display existing branches
 git checkout <branch name> - to switch to another branch 
 git merge <branch name> - to merge additional branch into main branch
 git push -u origin  <branch name> - to push new local branch to remote repo
 ---
-ACTIONS:
-during branches conflict ( main <-> branch2 >
+ACTIONS during branches conflict ( main <-> branch2 >
 main - git push -> ERROR
 main - to check difference between main and branch2 version of file
 main - to check and approve file editing version

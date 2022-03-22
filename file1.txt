@@ -37,7 +37,7 @@ git stash clear - to delete modified line
 ---
 git branch <name> - to create new branch in repo
 git branch - to display existing branches
-git branch <name> - to switch to another branch 
+git checkout <branch name> - to switch to another branch 
 ....
 
 ....

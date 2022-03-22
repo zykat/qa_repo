@@ -13,3 +13,4 @@ print(x-y)
 '''2.3 Write a program that prints type of variable.'''
 print(type(str2))
 print(type(y))
+# Ctrl+ / - comment several lines

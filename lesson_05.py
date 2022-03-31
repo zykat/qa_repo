@@ -91,5 +91,75 @@
 # pep8.org - python code standart
 # wiki - don't repeat yourself
 # wiki - KISS principle
+# https://www.w3schools.com/python/default.asp
 ####
+### HOMEWORK
+####
+# 1) Write a function to compare 2 numbers.
+#     E.g.compare(2, 3)
+# should return False otherwise should return True.
+# def compare(x, y):
+#     if x > y:
+#         print("False")
+#     else:
+#         print("True")
+# compare(2, 3)
 #
+# 2) Modify previous function to compare only positive numbers. In case
+# of negative numbers it will return a print statement like: "Can compare only positive numbers!".
+# def compare(x, y):
+#     if x < 0 or y <0:
+#         print("Can compare only positive numbers!")
+#     elif x > y:
+#         print("False")
+#     else:
+#         print("True")
+# compare(20, 3)
+#
+# 3) Write a function to sum 2 numbers.
+#     E.g.add(4, 5)
+# should return 9 as a result.
+# def sum_f(x, y):
+#     print(x + y)
+# sum_f(4, 5)
+#
+# 4) Write a function to subtract 2 numbers.
+#     E.g.sub(4, 2)
+# should return 2 as a result.
+# def sub_f(x, y):
+#     print(int(x / y))
+# sub_f(4, 2)
+#
+# 5) Write a function that returns a type of input.
+#     E.g.give_a_type("test")
+# should return a print statement like: "string".
+# z = ["name", "Joj", "game", "bnbn"]
+# def type_f(x):
+#     print(type(x))
+# type_f(z)
+#
+# 6) Write a function that prints input vertically.
+#     E.g.print_vertical("test me")
+# should return:
+# t
+# e
+# s
+# t
+#
+# m
+# e
+#
+d = "test me"
+# def print_vertical(x):
+#     for i in x:
+#         print(i)
+# print_vertical(d)
+#
+# 7) Write a function that concatenates 2 strings.
+#     E.g.concat("abc", "123")
+# should return a print statement like: "adc123".
+#
+# def concat(x, y):
+#     print(str(x) + str(y))
+#
+# concat("abc", 123)

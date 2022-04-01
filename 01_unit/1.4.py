@@ -1,6 +1,14 @@
 ## CSS-selectors AND searching by elements ##
 '''
-#moto - Поиск по ID
+1. Tag – элемент или тег - <p>Здесь написан текст.</p>
+2. Attribute – атрибуты или свойства элемента
+- class -- <div class="simple-text main">...</div>
+- name -- <a name="top"></a>
+- id -- уникальный указатель на элемент,  чаще всего генерируются динамически самим фреймворком
+3. Иерархия в HTML-документах
+'''
+'''
+#moto - Поиск по ID - #
 article - Поиск по tag
 [title="one-thing"] - Поиск по attribute
 [name="moto"] - Поиск по name

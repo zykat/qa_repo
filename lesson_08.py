@@ -50,22 +50,59 @@
 # P = Pentagon()
 # P.get_sides()
 
-class Table():
-    # vstroennii method
-    def __init__(self, color, shape):
-        self.color = color
-        self.shape = shape
+# class Table():
+#     # vstroennii method
+#     def __init__(self, color, shape):
+#         self.color = color
+#         self.shape = shape
+#
+#     # class attribute
+#     my_property = "test attribute"
+#
+#     # class method
+#     def get_my_property(self):
+#         print(self.my_property)
+# my_table = Table("red", "oval")
+#
+# my_table.get_my_property()
+# print(my_table.color)
+# print(my_table.shape)
+### HOMEWORK ####
+"""
+8.1 Use an object from the real world to create a class in Python
+"""
+class Planets:
+    def __init__(self, name,radius,temp):
+        self.name = name
+        self.radius = radius
+        self.temp = temp
 
-    # class attribute
-    my_property = "test attribute"
+    def get_name(self):
+        print(f'This is planet: {self.name}')
 
-    # class method
-    def get_my_property(self):
-        print(self.my_property)
-my_table = Table("red", "oval")
+    def get_radius(self):
+        print(f'{self.name} has {self.radius} mi ')
 
-my_table.get_my_property()
-print(my_table.color)
-print(my_table.shape)
+    def get_temp(self):
+        print(f'Temperature: {self.temp} Celsius')
+
+print('_________++++++++______________')
+planet_1 = Planets('Venus', 3.760, 475)
+planet_1.get_name()
+planet_1.get_radius()
+planet_1.get_temp()
+print('_________++++++++______________')
+
+planet_2 = Planets('Mars',2.106 , -220)
+planet_2.get_name()
+planet_2.get_radius()
+planet_2.get_temp()
+print('_________++++++++______________')
+
+planet_3 = Planets('Mercury', 1.516, 427)
+planet_3.get_name()
+planet_3.get_radius()
+planet_3.get_temp()
+print('_________++++++++______________')
 
 

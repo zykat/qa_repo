@@ -38,7 +38,21 @@
     As the result of the program/function, we have to get our file "text.txt"
     with the content from the parameter.
 """
-
+# file = open('text.txt', 'w')
+# file.write("1. new file")
+# file = open('text.txt',"r")
+# print(file.read())
+# file.close()
+###
+# def create_a_file_with_text(text: str):
+#     with open('text2.txt', 'w') as file:
+#         file.write(text)
+#
+# create_a_file_with_text("text3")
+# with open('text2.txt', 'r') as f:
+#     print(f.read())
+# f.close()
+###
 """
 7.2 Create a program/function that gets 2 parameters,
     first parameter a file name,
@@ -48,3 +62,10 @@
     we pass the second parameter as "e" to the program/function, and as the result
     text in the file will be "H0llo Python! L0sson7" 
 """
+# def replace(f_name: str, letter: str)-> None:
+#     with open(f_name, 'r') as file:
+#          content = file.read()
+#     transform = content.replace(letter, '0')
+#     with open(f_name, 'w') as f:
+#         f.write(transform)
+# replace("text.txt", '1')

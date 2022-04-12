@@ -1,4 +1,9 @@
 ### OOP in PYTHON ###
+# Object Oriented Programming:
+# - Inheritance
+# - Abstraction
+# - Encapsulation
+# - Polymorphism
 #
 ### Classes ###
 # class Person:

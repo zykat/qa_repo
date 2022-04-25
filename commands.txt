@@ -1,5 +1,5 @@
 ** GIT COMMANDS **
-token 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
+token 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
 ---
 copy NUL .gitconfig - to create git config file 
 git clone <repo link> - to clone remote repo to local

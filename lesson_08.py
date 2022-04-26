@@ -76,38 +76,61 @@
 """
 8.1 Use an object from the real world to create a class in Python
 """
-class Planets:
-    def __init__(self, name,radius,temp):
-        self.name = name
-        self.radius = radius
-        self.temp = temp
+# class Planets:
+    # def __init__(self, name,radius,temp):
+    #     self.name = name
+    #     self.radius = radius
+    #     self.temp = temp
+    #
+    # def get_name(self):
+    #     print(f'This is planet: {self.name}')
+    #
+    # def get_radius(self):
+#         print(f'{self.name} has {self.radius} mi ')
+#
+#     def get_temp(self):
+#         print(f'Temperature: {self.temp} Celsius')
+#
+# print('_________++++++++______________')
+# planet_1 = Planets('Venus', 3.760, 475)
+# planet_1.get_name()
+# planet_1.get_radius()
+# planet_1.get_temp()
+# print('_________++++++++______________')
+#
+# planet_2 = Planets('Mars',2.106 , -220)
+# planet_2.get_name()
+# planet_2.get_radius()
+# planet_2.get_temp()
+# print('_________++++++++______________')
+#
+# planet_3 = Planets('Mercury', 1.516, 427)
+# planet_3.get_name()
+# planet_3.get_radius()
+# planet_3.get_temp()
+# print('_________++++++++______________')
 
-    def get_name(self):
-        print(f'This is planet: {self.name}')
-
-    def get_radius(self):
-        print(f'{self.name} has {self.radius} mi ')
-
-    def get_temp(self):
-        print(f'Temperature: {self.temp} Celsius')
-
+#### MY CLASS ####
+class TVSeries:
+    def __init__(self, title, year, seasons):
+        self.title = title
+        self.year = year
+        self.seasons = seasons
+    def get_title(self):
+        print(f'{self.title}')
+    def get_year(self):
+        print(f'Premiered on {self.year}')
+    def get_season(self):
+        print(f'Has {self.seasons} seasons')
 print('_________++++++++______________')
-planet_1 = Planets('Venus', 3.760, 475)
-planet_1.get_name()
-planet_1.get_radius()
-planet_1.get_temp()
+series_1 = TVSeries('Anatomy Grey',2005, 18)
+series_1.get_title()
+series_1.get_year()
+series_1.get_season()
 print('_________++++++++______________')
-
-planet_2 = Planets('Mars',2.106 , -220)
-planet_2.get_name()
-planet_2.get_radius()
-planet_2.get_temp()
-print('_________++++++++______________')
-
-planet_3 = Planets('Mercury', 1.516, 427)
-planet_3.get_name()
-planet_3.get_radius()
-planet_3.get_temp()
-print('_________++++++++______________')
+series_2 = TVSeries('The Big Bang Theory',2007, 12)
+series_2.get_title()
+series_2.get_year()
+series_2.get_season()
 
 

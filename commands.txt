@@ -41,7 +41,8 @@ git stash clear - to delete modified line
 
 --- BRANCHES ---
 git branch <name> - to create new branch in repo
-git branch - to display existing branches
+git checkout -b <branch naame> - to create new branch
+git branch -a - to display all existing branches (local and remote)
 ---
 git branch -m <branch old name> <branch new name> - to rename branch
 git push origin :<branch old name> - to delete old branch in remote repo

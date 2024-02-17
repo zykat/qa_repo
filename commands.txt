@@ -1,7 +1,7 @@
 ** GIT COMMANDS **
 token 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
 ---
-copy NUL .gitconfig - to create git config file 
+copy NULL .gitconfig - to create git config file 
 git clone <repo link> - to clone remote repo to local
 ---
 git config --global --list - to display .gitconfig file
